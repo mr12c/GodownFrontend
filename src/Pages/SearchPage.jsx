@@ -15,7 +15,7 @@ const AdvancedSearchForm = () => {
     setLoading(true); // Set loading to true when starting request
 
     try {
-      const response = await axios.get(`http://localhost:3000/api/v1/item/search/advanced`, {
+      const response = await axios.get(`https://godown-management.onrender.com/api/v1/item/search/advanced`, {
         params: { name, category, pricerange: priceRange },
       });
       setItems(response?.data?.data?.items || []);
