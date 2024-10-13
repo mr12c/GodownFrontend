@@ -20,7 +20,7 @@ docker build -t your-react-vite-app .
 
 ### 3. run the container
 ```bash
-docker run -p 3000:3000 your-react-vite-app
+docker run -p 5173:5173 your-react-vite-app
 ```
 ### 4.login credentials
 - email:vishal@gmail.com
