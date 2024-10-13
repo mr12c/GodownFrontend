@@ -11,14 +11,14 @@ git clone https://github.com/mr12c/GodownFrontend.git
 cd your-repository
 ```
 
-###2. Build the Docker image:
+### 2. Build the Docker image:
 ```bash
 docker build -t your-react-vite-app .
 
 ```
 
 
-###3. run the container
+### 3. run the container
 ```bash
 docker run -p 3000:3000 your-react-vite-app
 ```
