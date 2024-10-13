@@ -1,5 +1,5 @@
 import React from 'react'
-import Godown from '../Components/godown'
+import Godown from '../Components/Godown.jsx'
 import api from '../utils/errorResponse.js'
 import { useEffect } from 'react'
 import { useState } from 'react'
